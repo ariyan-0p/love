@@ -5,24 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>I'm Here For You</title>
   <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Envelope View -->
+  <!-- Floating hearts -->
+  <div class="hearts"></div>
+
+  <!-- Envelope Start -->
   <div class="envelope-container">
     <img src="images/envelope.png" alt="Envelope" class="envelope-img" />
     <button class="open-btn" onclick="openLetter()">Click to Open 💌</button>
   </div>
 
-  <!-- Hidden Card -->
+  <!-- Letter Content -->
   <div class="card hidden" id="letter">
     <h1>I'm Here For You ❤️</h1>
     <p>
-      Hey My love, Pragnya <br><br>
+      Hey love,<br><br>
       If there's anything you want to share—whatever's on your mind or in your heart—I’m always here for you.  
       No pressure, no judgment. You're not alone, ever.<br><br>
-      I love you. 💖
+      I love you more than words can explain. 💖
     </p>
-    <div class="footer">— With all my love, Your loving Ariyan</div>
+    <div class="footer">— Forever Yours, Ariyan 💌</div>
   </div>
 
   <script>
@@ -31,12 +35,6 @@
       document.getElementById("letter").classList.remove("hidden");
     }
   </script>
-  <div class="hearts">
-  <div class="heart"></div>
-  <div class="heart"></div>
-  <div class="heart"></div>
-  <div class="heart"></div>
-  <div class="heart"></div>
-</div>
 </body>
 </html>
+
