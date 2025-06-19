@@ -5,8 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>I'm Here For You</title>
   <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!-- Floating PNG Hearts -->
+  <div class="floating-hearts">
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+  </div>
+
   <!-- Envelope View -->
   <div class="envelope-container">
     <img src="images/envelope.png" alt="Envelope" class="envelope-img" />
@@ -25,18 +36,13 @@
     <div class="footer">— With all my love, Your loving Ariyan</div>
   </div>
 
+  <!-- Script -->
   <script>
     function openLetter() {
       document.querySelector(".envelope-container").classList.add("hide");
       document.getElementById("letter").classList.remove("hidden");
     }
   </script>
-  <div class="hearts">
-  <div class="heart"></div>
-  <div class="heart"></div>
-  <div class="heart"></div>
-  <div class="heart"></div>
-  <div class="heart"></div>
-</div>
+
 </body>
 </html>
